@@ -20,7 +20,6 @@ Routes.forEach(route => {
         }
     });
 })
-
 app.listen(process.env.PORT || 3000, () => {
     console.log("Express server has started on port 3000. ");
 });
